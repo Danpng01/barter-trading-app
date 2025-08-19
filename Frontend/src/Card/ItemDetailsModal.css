@@ -1,0 +1,5 @@
+.wrap-text-within {
+    white-space: normal;
+    word-break: break-all;     /* Break words at arbitrary points to fit within the container */
+    overflow-wrap: break-word;
+}

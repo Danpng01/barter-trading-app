@@ -1,0 +1,68 @@
+.header {
+    border-bottom: 1px solid black;
+}
+
+.header-container {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-right: 200px;
+}
+
+/* Styles for the logo button */
+.logo {
+    display: inline-block;
+}
+
+/* Styles for the logo image */
+.logo-image {
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    color: black;
+}
+.category-dropdown {
+    position: absolute;
+    top: 80px; /* Adjust according to your header height */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: none;
+}
+
+.category-dropdown.visible {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+}
+
+.category-dropdown.hidden {
+    display: none;
+}
+
+.dropdown-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%; /* Ensure it spans the full width of the container */
+}
+
+.dropdown-nav .nav-link {
+    color: rgb(113, 228, 240);
+    text-align: center;
+    padding: 10px 10px; /* Add some horizontal padding for spacing */
+    border-right: 1px solid #ddd;
+}
+
+.dropdown-nav .nav-link:last-child {
+    border-right: none; /* Remove the right border from the last item */
+}

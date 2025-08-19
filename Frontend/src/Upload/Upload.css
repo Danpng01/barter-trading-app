@@ -1,0 +1,75 @@
+.content {
+  height: 100vh;
+}
+
+.upload-container {
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 60px auto; /* Center the container horizontally with margin */
+  background-color: #f9f9f9; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.upload-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px; /* Larger font size for the heading */
+  color: #333; /* Dark grey color for the heading */
+}
+
+.upload-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555; /* Medium grey color for labels */
+}
+
+.upload-form input[type="text"],
+.upload-form textarea,
+.upload-form input[type="file"],
+.upload-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+.upload-form textarea {
+  resize: vertical; /* Allow vertical resize but not horizontal */
+}
+
+.upload-form select {
+  appearance: none; /* Remove default dropdown arrow for better styling control */
+  background-color: white; /* Ensure the background is white */
+  cursor: pointer; /* Pointer cursor for dropdown */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="gray" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px; /* Adjust padding to make room for the arrow */
+}
+
+.upload-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333; /* Dark grey background for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Slightly larger font for the button */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.upload-form button:hover {
+  background-color: #555; /* Slightly lighter grey on hover */
+}
+
+.upload-form button:disabled {
+  background-color: #777; /* Dark grey when disabled */
+  cursor: not-allowed;
+}

@@ -1,0 +1,53 @@
+.chat-messages-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .header-panel {
+    background-color: rgb(128, 184, 244);
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0; /* Ensure the header panel does not shrink */
+  }
+  
+  .trade-panel {
+    height: 100%; /* Ensure the trade panel takes the necessary height */
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+    flex-shrink: 0; /* Ensure the trade panel does not shrink */
+  }
+  
+  .messages {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    height: 400px;
+   /*  this is the important segment that will affect the messaging geight */
+  }
+  
+  .chat-inputpanel {
+    width: 100%;
+    background-color: white;
+    flex-shrink: 0; /* Ensure the chat input panel does not shrink */
+  }
+
+  /* 
+  .center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed 
+    text-align: center;
+  } */

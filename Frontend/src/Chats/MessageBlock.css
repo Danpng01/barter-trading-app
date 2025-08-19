@@ -1,0 +1,26 @@
+.user-chat-search {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-chat-search-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message.owner {
+    justify-content: flex-end;
+}
+  
+.message:not(.owner) {
+    justify-content: flex-start;
+}
+
+.current-user-message {
+    background-color: rgb(110, 191, 238);
+}
+
+.other-user-message {
+    background-color: rgb(190, 185, 185);
+}

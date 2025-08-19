@@ -1,0 +1,67 @@
+/* Ensures the footer is always at the bottom */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    background-color: #808080; /* grey background */
+    color: #fff; /* white text */
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 180px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-nav li {
+    margin: 0 15px;
+  }
+  
+  .footer-nav a {
+    color: #fff; /* white text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #ff6600; /* orange hover effect */
+  }
+
+  .top-row, .mr-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .top-row a {
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-nav {
+      flex-direction: column;
+    }
+  
+    .footer-nav li {
+      margin: 10px 0;
+    }
+  }
+  

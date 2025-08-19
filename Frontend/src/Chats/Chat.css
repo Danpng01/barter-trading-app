@@ -1,0 +1,16 @@
+.chat-container {
+    height: 100%;
+    margin: 30px 100px 10px 100px;
+    border: 1px solid black; /* Add border around the container */
+    width: 100vw;
+
+}
+
+.sb-adjust {
+    border-right: 1px solid black; /* Add right border for the sidebar */
+    padding: 0;
+}
+
+.cm-adjust {
+    padding: 0; /* Remove any padding */
+}

@@ -1,0 +1,128 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  
+  /* Main container for the contact form */
+  .main-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  /* Heading styles */
+  .main-container h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styles */
+  .main-container p {
+    color: #495057;
+    line-height: 1.6;
+  }
+  
+  .main-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .main-container li {
+    margin-bottom: 10px;
+    color: #495057;
+  }
+  
+  /* Styled contact form container */
+  .StyledContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Form styles */
+  .StyledContactForm form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .StyledContactForm label {
+    margin-bottom: 5px;
+    color: #343a40;
+  }
+  
+  .StyledContactForm input[type="text"],
+  .StyledContactForm input[type="email"],
+  .StyledContactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .StyledContactForm textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .StyledContactForm input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .StyledContactForm input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Modal styles (optional, for consistency) */
+  .modal-content {
+    border-radius: 8px;
+  }
+  
+  .modal-header,
+  .modal-footer {
+    border: none;
+  }
+  
+  .modal-title {
+    color: #343a40;
+  }
+  
+  .modal-body {
+    color: #495057;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .justified-text {
+    text-align: justify;
+    white-space: pre-line;
+    margin: 0px 30px 30px 30px;
+  }

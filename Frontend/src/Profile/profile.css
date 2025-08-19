@@ -1,0 +1,59 @@
+.container-profile {
+    margin: 0 auto;
+    padding: 20px;
+    height: 100%;
+}
+
+.pt-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.fixed-size-card {
+    height: 45vh !important;
+}
+
+.card-block-square {
+    width: 30% !important;
+}
+
+.same-size-card {
+    height: 100%;
+}
+
+.top-same-size-card {
+    height: 100px;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.card-scroll-container {
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.card-body-fixed-header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-header-fixed {
+    flex-shrink: 0;
+    padding-bottom: 10px;
+}
+
+.wishlist {
+    margin-top: 30px
+}
